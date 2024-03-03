@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.Container{
+    background-image: url(pexels-photo-248515.png);
+    background-size: cover;
+    height: 88vh;
+    .section-1{
+        color: white;
+        text-align: center;
+        padding: 10%;
+        h1{
+           
+            font-size: 40px;
+        }
+        p{
+            
+            font-size: 20px;  
+        }
+        button{
+            width: 140px;
+            height: 50px;
+            background-color: rgb(28, 27, 27);
+            border: 1px solid white;
+            color: white;
+            font-size: 15px;
+        }
+        button:hover{
+             background-color: white;
+             cursor: pointer;
+             box-shadow: 2px 2px 2px white;
+             color: black;
+        }
+    }
+}
+.Container-1{
+    height: 44vh;
+    background-color: bisque;
+    text-align: center;
+      h1{
+        padding: 30px;
+        font-size: 35px;
+      }
+    .section-2{
+        display: flex;
+        gap: 30px;
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+.Container-3{
+    height: 97vh;
+    background-color: rgb(35, 35, 35);
+   
+    .section-3{
+        padding: 50px;
+        display: flex;
+        
+       justify-content: space-around;
+        .ad{
+            background-color: white;
+            width: 300px;
+            height: 82vh;
+            text-align: center;
+            h1{
+                font-size: 25px;
+            }
+            p{
+                font-size: 20px;
+            }
+           
+        }
+       
+    }
+   
+}
+.Container-4{
+    background-color: aliceblue;
+    height: 45vh;
+    .aa{
+        text-align: center;padding: 60px;
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}
+.Container-5{
+   
+     
+     .section-5{
+        display: flex;
+        text-align: center;
+        /* padding: 70px; */
+        .aa1{
+            background-color: rgb(144, 144, 243);
+            width: 50%;
+            height: 70vh;
+            color: white;
+          h1{
+            padding: 80px;
+            font-size: 30px;
+          }
+          p{
+          font-weight: 300;
+            font-size: 20px;
+          }
+        }
+        .aa2{
+            width: 50%;
+            background-color: rgb(62, 61, 61);
+            color: white;
+            height: 70vh;
+            h1{
+                padding: 70px;
+                font-size: 30px;
+              }
+              p{
+              font-weight: 300;
+                font-size: 20px;
+              }
+        }
+     }
+}
+footer{
+    height: 15vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    p{
+        padding: 30px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
